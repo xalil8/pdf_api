@@ -71,7 +71,7 @@ class MyForm(QWidget):
 
         f = self.drive.CreateFile({'title': file_name,
                                    'mimeType': 'application/pdf',
-                                   'parents': [{'kind': 'drive#fileLink', 'id': "1QIBNUM0AM6Nj395spZ6JNF7qE1bMPKRd"}]})
+                                   'parents': [{'kind': 'drive#fileLink', 'id': "your drive link goes here"}]})
         f.SetContentFile(self.file_path)
         f.Upload()
 
