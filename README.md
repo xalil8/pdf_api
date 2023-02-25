@@ -7,3 +7,4 @@ I want to keep them in a folder in my google drive to acces anytime with any dev
 So I create that simple python app with PyQt6
 Basicall take pdf link and name that want to save then save it in desired folder in google drive.
 In this projec i used Google cloud , pydrive and Pyqt6 
+
